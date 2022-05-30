@@ -14,10 +14,14 @@ public class Company {
         Flight flights1 = new Flight("ABC123", "NATAL", "SAO PAULO", "20-05-2021", 182, true);
         Flight flights2 = new Flight("ASD133", "JOAO PESSOA", "RIO DE JANEIRO", "21-06-2021", 150, false);
         Flight flights3 = new Flight("DEC113", "NATAL", "MOSSORO", "15-01-2022", 50, true);
+        Flight flights4 = new Flight("ENE444", "SAO PAULO", "RIO DE JANEIRO", "30-05-2022", 50, true);
+        Flight flights5 = new Flight("TIJ987", "BRASILIA", "SAO PAULO", "22-05-2022", 50, false);
 
         flights.add(flights1);
         flights.add(flights2);
         flights.add(flights3);
+        flights.add(flights4);
+        flights.add(flights5);
     }
 
     @GetMapping("name")
